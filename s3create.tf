@@ -15,6 +15,6 @@ resource "aws_s3_bucket_public_access_block" "public_access" {
   restrict_public_buckets = true
 }
 
-output "my_bucket_domain_name" {
+output "abc" {
   value = aws_s3_bucket.my_bucket.bucket_domain_name
 }
